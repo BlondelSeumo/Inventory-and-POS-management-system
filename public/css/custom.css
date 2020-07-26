@@ -1,0 +1,78 @@
+/* CSS Document */
+/***** mpdf ******/
+.footer_position{
+   bottom:0  !important;
+   padding-top:25px;
+}
+.hide{
+   display:none;
+}
+.show{
+   display:block;
+}
+.float_left{
+	float:left;
+}
+.float_right{
+   float:right;
+}
+.padding_10{
+	padding:10px;
+}
+.padding_5{
+	padding:5px;
+}
+@page :first {
+	header: firstpage;
+}
+
+@page {
+	header: otherpages;
+}
+
+@page {
+	footer: myfooter;
+}
+/* #//mpdf */
+.invoice{
+	color: #fff;
+	background-color: #000;
+	border-color: #ddd;
+	text-align: center;
+	width: 139px;
+	float: right;
+	padding: 9px 10px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 12px;
+}
+.purchase{
+	color: #fff;
+    background-color: #000;
+    border-color: #ddd;
+    text-align: center;
+    width: 139px;
+    float: right;
+    padding: 9px 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 12px;
+}
+.select{
+	width: 100px; 
+	height: 40px;
+}
+.picture_50x50{
+	width: 50px; 
+	height: 50px;
+}
+.picture_100x100{
+	width: 50px; 
+	height: 50px;
+}
+.removeitem{
+  text-align: center;
+  margin: auto;
+  padding: 30px;	
+}
+.clear {
+  clear: both;
+}
